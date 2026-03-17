@@ -1,0 +1,24 @@
+/*ANIME-LIST*/
+body {
+    background-color: #f8f9fa;
+    /* Grigio chiarissimo per contrasto con la navbar */
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Effetto elevazione al passaggio del mouse */
+    border: 1px solid #0dcaf0 !important;
+    /* Richiamo al colore del tasto Cerca */
+}
+/*ANIME-LIST*/
+
+
+/*ANIME-GEENRE-LIST*/
+
+
+
+/*ANIME-GEENRE-LIST*/
