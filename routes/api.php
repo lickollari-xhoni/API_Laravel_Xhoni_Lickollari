@@ -1,11 +1,17 @@
 <?php
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Models\Product;
+
+Route::get('/tutti-i-prodotti', function () {
+    $products = Product::all();
+
+    return $products;
+})->middleware('auth:sanctum');
 
 Route::get('/tutti-i-prodotti/{id}', function ($id) {
-$products = Product::find($id); 
-return response()->json($products);  
+    $product = Product::find($id);
 
+    return $product;
 });
