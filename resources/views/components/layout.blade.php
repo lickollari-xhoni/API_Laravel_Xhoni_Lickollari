@@ -15,7 +15,7 @@
 
 <body>
     
-    <x-navbar />
+    <x-navbar/>
 
     <main>
         <div class="container">
