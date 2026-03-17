@@ -1,6 +1,8 @@
-<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body sticky-top" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">AnimeApp</a>
+        <a class="navbar-brand fw-bold" href="/">
+            <span class="text-white">Anime</span><span style="color: #0dcaf0;">App</span>
+        </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,12 +10,10 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ route('rotta1') }}">Lista Generi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">I più popolari</a>
                 </li>
             </ul>
 

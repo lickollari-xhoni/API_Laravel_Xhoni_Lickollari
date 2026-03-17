@@ -1,4 +1,5 @@
-/*ANIME-LIST*/
+/*--------------------------------------------------------ANIME-LIST--------------------------------------------------------*/
+
 body {
     background-color: #f8f9fa;
     /* Grigio chiarissimo per contrasto con la navbar */
@@ -14,11 +15,55 @@ body {
     border: 1px solid #0dcaf0 !important;
     /* Richiamo al colore del tasto Cerca */
 }
-/*ANIME-LIST*/
+
+/*---------------------------------------------------------ANIME-LIST---------------------------------------------------------*/
 
 
-/*ANIME-GEENRE-LIST*/
+
+
+/*------------------------------------------------------ANIME-GEENRE-LIST------------------------------------------------------*/
+
+.card {
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Un piccolo tocco di classe: il bordo laterale color "info" come il tasto cerca */
+.border-info {
+    border-color: #0dcaf0 !important;
+}
+
+/*---------------------------------------------------------ANIME-GEENRE-LIST---------------------------------------------------*/
 
 
 
-/*ANIME-GEENRE-LIST*/
+
+/*------------------------------------------------------------ANIME-DETAIL-----------------------------------------------------*/
+
+.img-fluid:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+/*------------------------------------------------------------ANIME-DETAIL-----------------------------------------------------*/
+
+
+
+
+/*---------------------------------------------------------------FOOTER--------------------------------------------------------*/
+
+.hover-link:hover {
+    color: #0dcaf0 !important;
+    transition: 0.3s;
+}
+
+footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*---------------------------------------------------------------FOOTER--------------------------------------------------------*/
