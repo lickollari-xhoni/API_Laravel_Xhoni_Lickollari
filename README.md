@@ -56,6 +56,7 @@ Segui questi passaggi per avviare il progetto localmente:
 * **E-mail**: lickollarixhoni@yahoo.it
 * **LinkedIn**: linkedin.com/in/tuoprofilo
 * **GitHub**: (https://github.com/lickollari-xhoni)
+* * Project: Final Graduation Work 2025/2026
 
 
 
