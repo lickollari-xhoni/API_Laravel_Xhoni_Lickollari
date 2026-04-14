@@ -49,6 +49,11 @@ Segui questi passaggi per avviare il progetto localmente:
 
 2. **Pagine**: Layout a Card con effetti hover e colori coerenti (Azzurro Info/Dark).
 
+## 📦 Installation
+1. Clone the repository:
+   ```bash
+   git clone [git@github.com:lickollari-xhoni/API_Laravel_Xhoni_Lickollari.git]
+   (https://github.com/lickollari-xhoni/API_Laravel_Xhoni_Lickollari)
 
 ## 👨‍💻 Autore
 **Xhoni Lickollari**
